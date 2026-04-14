@@ -18,3 +18,39 @@
   --dark: #1E1E1E;
   --white: #ffffff;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #7d92e8;
+  display: flex;
+  justify-content: center;
+}
+
+.page-wrap {
+  max-width: 450px;
+  background: var(--purple);
+  color: var(--white);
+}
+
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Kavoon';
+  font-size: 3em;
+}
+
+header p {
+  font-size: 0.9em;
+}
+
+
+nav {
+  background: var(--yellow);
+  text-align: center;
+  padding: 10px;
+}
+
