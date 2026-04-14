@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 
-
 :root {
   --teal: #4CA7C0;
   --purple: #484FB7;
@@ -32,7 +31,6 @@ body {
   color: var(--white);
 }
 
-
 header {
   text-align: center;
   padding: 20px;
@@ -47,10 +45,49 @@ header p {
   font-size: 0.9em;
 }
 
-
 nav {
   background: var(--yellow);
   text-align: center;
   padding: 10px;
+}
+
+nav h2 {
+  font-family: 'Kavoon';
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 6px 0;
+}
+
+nav a {
+  display: block;
+  background: white;
+  color: var(--purple);
+  padding: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 15px;
+}
+
+h2 {
+  font-family: 'Kavoon';
+  font-size: 2em;
+}
+
+h3 {
+  color: var(--yellow);
+  margin-top: 10px;
+}
+
+h4 {
+  color: var(--purple);
 }
 
