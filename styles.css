@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kavoon&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --teal: #4CA7C0;
+  --purple: #484FB7;
+  --lavender: #6B8FE7;
+  --yellow: #E9BB57;
+  --pink: #D9526F;
+  --dark: #1E1E1E;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #7d92e8;
+  display: flex;
+  justify-content: center;
+}
+
+.page-wrap {
+  max-width: 450px;
+  background: var(--purple);
+  color: var(--white);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Kavoon';
+  font-size: 3em;
+}
+
+header p {
+  font-size: 0.9em;
+}
+
+nav {
+  background: var(--yellow);
+  text-align: center;
+  padding: 10px;
+}
+
+nav h2 {
+  font-family: 'Kavoon';
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 6px 0;
+}
+
+nav a {
+  display: block;
+  background: white;
+  color: var(--purple);
+  padding: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 15px;
+}
+
+h2 {
+  font-family: 'Kavoon';
+  font-size: 2em;
+}
+
+h3 {
+  color: var(--yellow);
+  margin-top: 10px;
+}
+
+h4 {
+  color: var(--purple);
+}
+
+.card {
+  display: flex;
+  gap: 10px;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.card img {
+  width: 48px;
+  height: 48px;
+}
+
+.why {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.why p {
+  padding: 10px;
+  background: var(--lavender);
+  text-align: center;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  background: white;
+  color: black;
+  margin: 10px 0;
+  border-collapse: collapse;
+}
+
+th {
+  background: var(--yellow);
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+  border-top: 1px solid #ccc;
+}
+
+#cta {
+  background: var(--pink);
+  text-align: center;
+}
+
+#cta button {
+  background: white;
+  color: var(--purple);
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
